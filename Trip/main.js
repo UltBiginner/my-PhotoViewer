@@ -168,4 +168,4 @@ const myArray = [
 'Bow%20River.JPG?raw=true'
 ];
 
-new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images/Bow%20River.JPG?raw=true').init();
+new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images').init();
