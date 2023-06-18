@@ -164,7 +164,8 @@ const myArray = [
 'The West',
 'Turky',
 'Spain',
-'Vietnam'
+'Vietnam',
+'Bow%20River.JPG?raw=true'
 ];
 
-new PhotoViewer(myArray, '../images').init();
+new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images/Bow%20River.JPG?raw=true').init();
