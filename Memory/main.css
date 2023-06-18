@@ -1,0 +1,29 @@
+.photoViewer {
+    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
+}    
+
+.frame	{
+    position: fixed;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+	max-height: 1280px;	/*画像の親要素のサイズを指定（widthはauto）*/
+}
+
+#base-picture {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;	/*画像に親要素内で100%を指定*/
+}
+
+.controles {
+	display: flex;
+	justify-content: flex-end;
+}

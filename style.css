@@ -1,0 +1,26 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+.menu-card {
+	width: 33%;
+	margin-top; 35px;
+}
+.menu-card-inner {
+	padding: 25px 30px;
+	background-color: #dbe0e4;
+}
+.menu-image {
+	width: 100%
+}
+.menu-card-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.bname {
+	background-color: yellow;
+}
+	
+
+
