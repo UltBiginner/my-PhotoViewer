@@ -167,4 +167,4 @@ const myArray = [
 'Spring'
 ];
 
-new PhotoViewer(myArray, '../images').init();
+new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images').init();
