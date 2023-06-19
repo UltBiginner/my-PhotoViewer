@@ -158,15 +158,10 @@ class PhotoViewer {
 
 
 const myArray = [
-'Forest',
-'Koza River',
-'Morning',
-'Shadow',
-'Snowy Morning',
-'Winter Scenery',
-'Sichigawa Dam',
-'Morning Sunrise',
-'Cloudy Day'
+'Muku',
+'Osaka%20Expo',
+'My%20House',
+'Lake%20Hadori'
 ];
 
 new PhotoViewer(myArray, '../images').init();
