@@ -169,4 +169,4 @@ const myArray = [
 'Cloudy Day'
 ];
 
-new PhotoViewer(myArray, '../images').init();
+new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images').init();
