@@ -1,7 +1,7 @@
 
 //配列を使った動画の連続再生
 
-const title = ['Scenery', 'Flower', 'Memory', 'Trip']
+const title = ['Scenery', 'Flower', 'Trip']
 
 class SelectMovie {
 	
@@ -36,12 +36,7 @@ class SelectMovie {
 			location.href = './Flower/execute.html';
 		});
 		
-		this.btnBlue.innerHTML = this.title[2];
-		btnBlue.addEventListener('click', (event) => {
-			location.href = './Memory/execute.html';
-		});
-		
-		this.btnSpecial.innerHTML = this.title[3];
+		this.btnSpecial.innerHTML = this.title[2];
 		btnSpecial.addEventListener('click', (event) => {
 			location.href = './Trip/execute.html';
 		});
