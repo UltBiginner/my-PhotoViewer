@@ -160,8 +160,7 @@ class PhotoViewer {
 const myArray = [
 'Muku',
 'Osaka%20Expo',
-'My%20House',
-'Lake%20Hadori'
+'My%20House'
 ];
 
 new PhotoViewer(myArray, 'https://github.com/UltBiginner/my-PhotoViewer/blob/main/images').init();
